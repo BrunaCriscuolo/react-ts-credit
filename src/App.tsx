@@ -1,9 +1,12 @@
 import { GlobalStyles } from './styles/global';
 
+import Typography from './atoms/Typography';
+
 export function App() {
   return (
     <>
-      <h1>teste</h1>
+      <Typography.Title as="h1">teste</Typography.Title>
+      <Typography.Text as="p">teste de paragrafo</Typography.Text>
       <GlobalStyles />
     </>
   );
