@@ -9,9 +9,7 @@ export type TypographyProps = typeof Base & {
   Title: typeof Title,
 };
 
-const Typography = Base as TypographyProps;
+export const Typography = Base as TypographyProps;
 Typography.Text = Text;
 Typography.Link = Link;
 Typography.Title = Title;
-
-export default Typography;
