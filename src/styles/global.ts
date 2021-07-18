@@ -1,4 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import { Variables } from '../variables';
+
+const { gray100 } = Variables.Color;
 
 export const GlobalStyles = createGlobalStyle`
   *{
@@ -7,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    background-color: #f8f2f5;
+    background-color: ${gray100};
   }
   body,
   input,

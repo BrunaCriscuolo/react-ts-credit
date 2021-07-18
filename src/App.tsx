@@ -1,6 +1,6 @@
 import { GlobalStyles } from './styles/global';
 
-import Typography from './atoms/Typography';
+import Typography from './components/atoms/Typography';
 
 export function App() {
   return (
