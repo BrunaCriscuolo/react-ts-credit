@@ -4,9 +4,9 @@ import { Title } from './title';
 import { Base } from './base';
 
 export type TypographyProps = typeof Base & {
-  Text: typeof Text;
-  Link: typeof Link;
-  Title: typeof Title;
+  Text: typeof Text,
+  Link: typeof Link,
+  Title: typeof Title,
 };
 
 const Typography = Base as TypographyProps;
