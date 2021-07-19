@@ -1,13 +1,12 @@
 import { GlobalStyles } from './styles/global';
 
-import Typography from './components/atoms/Typography';
+import { Main } from './components/tamplates/Main/main';
 
 export function App() {
   return (
     <>
-      <Typography.Title as="h1">teste</Typography.Title>
-      <Typography.Text as="p">teste de paragrafo</Typography.Text>
       <GlobalStyles />
+      <Main />
     </>
   );
 }
