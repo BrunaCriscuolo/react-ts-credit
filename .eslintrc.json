@@ -32,6 +32,7 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-use-before-define": "warn",
     "no-use-before-define": "off",
+    "react/require-default-props": "off",
     "react/jsx-filename-extension": [
       2,
       {
@@ -46,7 +47,8 @@
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/button-has-type": "off"
   },
   "settings": {
     "import/parsers": {

@@ -5,6 +5,36 @@ export const Color = {
   primaryDark: '#26996F',
   primaryDarker: '#2A4D40',
 
+  secondaryLighter: '#876AD5',
+  secondaryLight: '#5A2BD9',
+  secondaryMain: '#5429CC',
+  secondaryDark: '#30264D',
+  secondaryDarker: '#200F4D',
+
+  successLighter: '#99CC52',
+  successLight: '#80CC14',
+  successMain: '#50800D',
+  successDark: '#40660A',
+  successDarker: '#284006',
+
+  infoLighter: '#6485DF',
+  infoLight: '#2256E6',
+  infoMain: '#2152D9',
+  infoDark: '#283559',
+  infoDarker: '#0D2259',
+
+  warningLighter: '#FFF04D',
+  warningLight: '#D9CA2B',
+  warningMain: '#CCBE29',
+  warningDark: '#8C831C',
+  warningDarker: '#4D470F',
+
+  errorLighter: '#FF938F',
+  errorLight: '#CC3A35',
+  errorMain: '#FF4842',
+  errorDark: '#804947',
+  errorDarker: '#802421',
+
   gray100: '#F9FAFB',
   gray200: '#F4F6F8',
   gray300: '#DFE3E8',
