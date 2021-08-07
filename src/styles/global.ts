@@ -29,4 +29,12 @@ export const GlobalStyles = createGlobalStyle`
     cursor: not-allowed;
     opacity: 0.6;
   }
+  html{
+    @media(max-width:720px){
+      font-size:87.5%
+    }
+    @media(max-width:1080px){
+      font-size:93.75%
+    }
+  }
 `;
